@@ -1,4 +1,7 @@
-class Segitiga():
+from geometri.bangun_ruang import BangunRuang
+
+
+class Segitiga(BangunRuang):
     def __init__(self, a ,t):
         self.a = a
         self.t = t
